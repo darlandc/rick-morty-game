@@ -2,19 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-rick-morty-game',
-  template: `
-    <p>
-      rick-morty-game works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './rick-morty-game.component.html',
+  styles: []
 })
 export class RickMortyGameComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
