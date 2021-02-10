@@ -11,6 +11,12 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "paths": {
+      "rick-morty-game": [
+        "dist/rick-morty-game/rick-morty-game",
+        "dist/rick-morty-game"
+      ]
+    },
     "module": "es2020",
     "lib": [
       "es2018",
